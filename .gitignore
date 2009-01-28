@@ -23,3 +23,6 @@ merb/custom.rb
 spec/fixtures/queue
 messages
 spec/messages
+gems/gems/
+gems/specifications/
+.original_gems

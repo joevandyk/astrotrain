@@ -22,3 +22,7 @@ end
 Merb::BootLoader.after_app_loads do
   require 'xmpp4r-simple'
 end
+
+$LOAD_PATH.unshift File.join(Merb.root, 'vendor', 'rest-client', 'lib')
+require 'rest_client'
+
